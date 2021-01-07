@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family="Roboto&display=swap');
+@import '~normalize.css';
+
+@import './assets/_mixins.scss';
+@import './assets/_variables.scss';
+
+@import './layouts/header.scss';
+@import './layouts/toolbar.scss';
+@import './layouts/formula.scss';
+@import './layouts/table.scss';
+@import './layouts/dashboard.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.excel {
+  position: relative;
+  color: #888888;
+  height: 100%;
+  max-width: 100%;
+  font-size: .8rem;
+}
